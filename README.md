@@ -1,68 +1,96 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT HEADER -->
+<br />
+<p align="center">
 
-## Available Scripts
+  <h3 align="center">Chat Application</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    I created this responsive real-time chatting website using Sockets API for data transmission, with React.js and Redux as the framework.
+  </p>
+</p>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Installation and Usage](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About The Project
 
-### `npm run build`
+<a href="https://github.com/prakchat1999/Auto-Blog">
+    <img src="img/Home-Page-SS.png" alt="Logo">
+  </a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I created this website because:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- I wanted to work with a public API.
+- I wanted to use Redux which streamlines the operation of maintaing states in React.js
+- I wanted to use React Hooks to further simplify the process.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+- [Socket.io](https://socket.io/get-started/chat/)
+- [React](https://reactjs.org/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation and Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+git clone https://github.com/prakchat1999/Auto-Blog.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Install NPM packages
 
-## Learn More
+```sh
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm start or yarn start
+```
 
-### Code Splitting
+<!-- CONTRIBUTING -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Making a Progressive Web App
+<!-- LICENSE -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<!-- CONTACT -->
 
-### Deployment
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Your Name - pchaturvedi@umass.edu
 
-### `npm run build` fails to minify
+Project Link: [https://github.com/prakchat1999/Chat-Application](https://github.com/prakchat1999/Chat-Application)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [Material-UI](https://material-ui.com/)
