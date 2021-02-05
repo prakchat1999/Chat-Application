@@ -97,12 +97,12 @@ export default function Dashboard() {
             color="primary"
             className={classes.button}
             onClick={() => {
+              changeTextValue('');
               sendChatAction({
                 from: user,
                 msg: textValue,
                 topic: activeTopic
               });
-              changeTextValue("");
             }}
           >
             Send
